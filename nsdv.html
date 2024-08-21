@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ring{
+            width: 200px;
+            height: 200px;
+            border: 0px solid #000;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .ring:nth-child(1){
+            border-bottom-width: 8px;
+            border-color: rgb(255, 255, 255);
+            animation: reverse 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+        
+    </div>
+</body>
+</html>

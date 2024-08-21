@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(241, 235, 235);
+}
+
+#navbar{
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+button{
+    background-color: #f08804;
+}
+
+#logo{text-decoration: underline;
+    color: #f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 200px;
+}
